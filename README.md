@@ -6,6 +6,8 @@
 
    refs: https://github.com/RichardKnop/machinery/issues/586
 
+   
+
 ### Questions
 
 1. 如果 task 沒有註冊到worker 要如何發現？
