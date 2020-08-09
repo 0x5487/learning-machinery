@@ -1,5 +1,13 @@
 # learning-machinery
 
+### Common
+
+1. 相同 task uuid 如果反覆執行，task 裡面的代碼還是被執行，然後結果會一直被覆蓋存入到 result backend
+
+
+
+
+
 ### Issues
 
 1. `worker` 被 shutdown 的時候會把手上來在處裡中的任務完成 (gracefully shutdown)，但如果像停電這種場景服務直接 crash 的話，那這個任務就消失了，不會重新執行 (redis broker)
